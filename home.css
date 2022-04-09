@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+header{
+    position: fixed;
+    width: 100%;
+    line-height: 3;
+    text-align: right;
+    left: 0
+}
+container-social {
+float: left;
+padding-left: 10px;
+list-style-type: none;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gradient-yellow {
+    background-image: linear-gradient(#ffffff, #fcb01c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+  .gradient-light-blue {
+    background-image: linear-gradient(#ffffff, #489fd1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+.copyright {
+    position: fixed;
+    color:#ffffff;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    left: 0
+}
