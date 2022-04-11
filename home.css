@@ -8,11 +8,6 @@ header{
     text-align: right;
     left: 0
 }
-container-social {
-float: left;
-padding-left: 10px;
-list-style-type: none;
-}
 .centered {
     position: fixed;
     top: 50%;
