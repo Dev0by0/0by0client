@@ -35,6 +35,23 @@ list-style-type: none;
     bottom: 0;
     width: 100%;
     line-height: 3;
+    text-align: left;
+    left: 150px
+}
+.services {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    line-height: 2;
     text-align: center;
     left: 0
+}
+.contacts {
+    position: fixed;
+    color:#ffffff;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: right;
+    right: 250px
 }
