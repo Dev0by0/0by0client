@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: url('./assets/images/bg_image.jpeg') no-repeat center;
+    background-size: cover;
+    min-height:100vh;
 }
 header{
     position: fixed;
@@ -20,7 +22,7 @@ header{
     -webkit-text-fill-color: transparent; 
   }
   .gradient-light-blue {
-    background-image: linear-gradient(#ffffff, #489fd1);
+    background-image: linear-gradient(#ffffff, #acd6ee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
   }
@@ -35,7 +37,7 @@ header{
 }
 .services {
     position: fixed;
-    bottom: 50px;
+    bottom: 75px;
     width: 100%;
     line-height: 2;
     text-align: center;
